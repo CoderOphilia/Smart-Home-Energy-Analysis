@@ -1,15 +1,15 @@
 # Smart Home Energy Consumption: OLAP Analysis in MongoDB
 
-## 📌 Project Overview
-[cite_start]This project analyzes energy consumption—specifically electricity, gas, and water—across smart homes, devices, and varying temporal dimensions[cite: 7, 8]. [cite_start]The primary objective was to execute OLAP-style business intelligence queries using a document-based NoSQL database (MongoDB) to uncover actionable insights regarding peak demand, standby energy sinks, and seasonal trends[cite: 11, 108, 111]. 
+##  Project Overview
+[cite_start]This project analyzes energy consumption—specifically electricity, gas, and water—across smart homes, devices, and varying temporal dimensions. [cite_start]The primary objective was to execute OLAP-style business intelligence queries using a document-based NoSQL database (MongoDB) to uncover actionable insights regarding peak demand, standby energy sinks, and seasonal trends
 
-## 🛠️ Tools & Technologies
-* [cite_start]**Database Engine:** MongoDB [cite: 10]
-* [cite_start]**Data Modeling:** MySQL Workbench (Initial Star Schema Design) [cite: 98]
-* [cite_start]**Development Environment:** Visual Studio Code with MongoDB Extension (NoSQL aggregation pipelines) [cite: 100]
-* [cite_start]**Data Generation:** Mockaroo (Synthetic JSON dataset generation) [cite: 60, 99]
+##  Tools & Technologies
+* [cite_start]**Database Engine:** MongoDB 
+* [cite_start]**Data Modeling:** MySQL Workbench (Initial Star Schema Design)
+* [cite_start]**Development Environment:** Visual Studio Code with MongoDB Extension (NoSQL aggregation pipelines)
+* [cite_start]**Data Generation:** Mockaroo (Synthetic JSON dataset generation)
 
-## 🗄️ ETL & Data Architecture (7Ws Dimensional Model)
+##  ETL & Data Architecture (7Ws Dimensional Model)
 [cite_start]The database architecture was initially conceptualized as a Star Schema in MySQL before being transformed and denormalized into a document model optimized for MongoDB[cite: 10, 48, 109]. 
 
 **Dimension Attributes & Facts:**
@@ -22,7 +22,7 @@
 
 [cite_start]*Data Loading Process:* Due to the time-consuming nature of large JSON insertions, the data entry process was segmented into smaller, controlled batches to ensure accurate data validation and integrity during the load phase[cite: 104, 105].
 
-## 📊 Key Aggregation Queries & Business Insights
+## Key Aggregation Queries & Business Insights
 
 **1. Monthly Total kWh and Financial Impact by City**
 * [cite_start]**Finding:** Honolulu consumed approximately 17% more electricity than South Bend, yet generated a total bill nearly 14 times higher[cite: 68, 71].
@@ -47,4 +47,4 @@
 [cite_start]The project successfully demonstrated that complex, OLAP-style analytics can run efficiently on MongoDB using a Fact-Dimension inspired document design[cite: 108]. [cite_start]The findings from these pipelines can be directly utilized to design better tariff structures and provide targeted energy-saving recommendations to consumers[cite: 112].
 
 ---
-[cite_start]*Project Contributors: Ophilia, Ilke Baskan, Scott Yoon, Khanh* [cite: 1, 3, 4, 5, 6]
+*Project Contributors: Ophilia, Ilke Baskan, Scott Yoon, Khanh*
