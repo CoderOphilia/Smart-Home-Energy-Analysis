@@ -22,6 +22,17 @@ The database architecture was initially conceptualized as a Star Schema in MySQL
 
 *Data Loading Process:* Due to the time-consuming nature of large JSON insertions, the data entry process was segmented into smaller, controlled batches to ensure accurate data validation and integrity during the load phase.
 
+---
+*ERD Diagram*
+<img width="2367" height="1422" alt="image" src="https://github.com/user-attachments/assets/2aa916cc-02b0-4ebf-b37e-037195383ef6" />
+
+---
+*MongoDB Connection*
+<img width="2264" height="1480" alt="image" src="https://github.com/user-attachments/assets/e5010745-a1f6-457e-b926-03bf2a06148b" />
+
+<img width="2450" height="1480" alt="image" src="https://github.com/user-attachments/assets/6ecd8aad-bfa5-4a69-9ca6-10dff6112acb" />
+
+
 ## Key Aggregation Queries & Business Insights
 
 **1. Monthly Total kWh and Financial Impact by City**
@@ -46,5 +57,4 @@ The database architecture was initially conceptualized as a Star Schema in MySQL
 ## Conclusion & Potential Applications
 The project successfully demonstrated that complex, OLAP-style analytics can run efficiently on MongoDB using a Fact-Dimension inspired document design. he findings from these pipelines can be directly utilized to design better tariff structures and provide targeted energy-saving recommendations to consumers.
 
----
-*Project Contributors: Ophilia, Ilke Baskan, Scott Yoon, Khanh*
+
