@@ -30,7 +30,7 @@ The database architecture was initially conceptualized as a Star Schema in MySQL
 *MongoDB Connection*
 <img width="2264" height="1480" alt="image" src="https://github.com/user-attachments/assets/e5010745-a1f6-457e-b926-03bf2a06148b" />
 
-<img width="2450" height="1480" alt="image" src="https://github.com/user-attachments/assets/6ecd8aad-bfa5-4a69-9ca6-10dff6112acb" />
+
 
 
 ## Key Aggregation Queries & Business Insights
